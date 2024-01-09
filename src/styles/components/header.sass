@@ -1,0 +1,26 @@
+@use '../mixins'
+@use '../variables'
+
+header
+    @include mixins.flex-center
+    justify-content: space-between
+    padding: 2rem 8%
+
+    .logo
+        font-size: 2.2rem
+        font-weight: bold
+        
+        svg
+            color: variables.$primary-color
+
+    .navbar
+        @include mixins.flex-center
+
+        a
+            margin: 0 1rem
+            font-size: 1.2rem
+            font-weight: bolder
+            text-transform: uppercase
+            
+            &:hover
+                color: variables.$primary-color

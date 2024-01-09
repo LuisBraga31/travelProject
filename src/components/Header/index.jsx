@@ -15,8 +15,8 @@ export default function Header() {
                 <a href=""> Packages </a>
                 <a href=""> Reviews </a>
                 <a href=""> Blogs </a>
-                <a href=""> <FaCartPlus/> </a>
-                <a href=""> <FaSearch/> </a>
+                <a href=""> <FaCartPlus size={20} /> </a>
+                <a href=""> <FaSearch size={20} /> </a>
             </nav>
         
         </header>
