@@ -1,10 +1,11 @@
-import './App.css'
+import Header from './components/Header'
+import './styles/styles.sass'
 
 function App() {
 
   return (
     <>
-     
+        <Header/>
     </>
   )
 }
