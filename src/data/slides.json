@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "background": "/backgrounds/bg-01.jpg",
+        "title":"Exploring",
+        "subtitle": "never stop",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi similique corrupti odio culpa a inventore qui necessitatibus expedita. Tenetur reprehenderit nemo quae cumque rerum, iusto reiciendis repellendus vel beatae obcaecati."
+    },
+    {
+        "id": 2,
+        "background": "/backgrounds/bg-02.jpg",
+        "title":"Amazing",
+        "subtitle": "make tour",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi similique corrupti odio culpa a inventore qui necessitatibus expedita. Tenetur reprehenderit nemo quae cumque rerum, iusto reiciendis repellendus vel beatae obcaecati."
+    },
+    {
+        "id": 3,
+        "background": "/backgrounds/bg-03.jpg",
+        "title":"New World",
+        "subtitle": "explore the",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi similique corrupti odio culpa a inventore qui necessitatibus expedita. Tenetur reprehenderit nemo quae cumque rerum, iusto reiciendis repellendus vel beatae obcaecati."
+    }
+]
