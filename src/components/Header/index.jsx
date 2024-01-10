@@ -1,10 +1,32 @@
 import { FaHiking, FaCartPlus, FaSearch } from "react-icons/fa";
 import '../../styles/components/header.sass';
+import { useEffect, useState } from "react";
 
 export default function Header() {
 
+    const [background, setBackground] = useState(false);
+    
+    useEffect(() => {
+        
+        const handleScroll = () => {
+
+          if (window.scrollY > 0) {
+            setBackground(true);
+          } else {
+            setBackground(false);
+          }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+
+      }, []);
+
     return (
-        <header>
+        <header className={`${background ? 'header-active' : ''}`}>
         
             <a href="#" className="logo"><FaHiking /> Travel. </a>
 
