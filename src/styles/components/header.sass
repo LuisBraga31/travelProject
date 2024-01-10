@@ -12,6 +12,9 @@ header
     right: 0
     transition: .8s
 
+    @include mixins.tablet
+        padding: 1rem 4%
+
     &.header-active
         background-color: variables.$white-option
         box-shadow: variables.$box-shadow
@@ -23,14 +26,29 @@ header
         svg
             color: variables.$primary-color
 
-    .navbar
+    .header-nav
         @include mixins.flex-center
 
-        a
-            margin: 0 1rem
-            font-size: 1.2rem
-            font-weight: bolder
-            text-transform: uppercase
+        .navbar
             
-            &:hover
-                color: variables.$primary-color
+            @include mixins.flex-center
+
+            @include mixins.tablet
+                display: none
+
+            a
+                @include mixins.navitem
+                
+                &:hover
+                    color: variables.$primary-color
+        
+        .navbaricons
+            
+            @include mixins.flex-center
+            
+            a
+                @include mixins.navitem
+                padding-top: 4px
+
+                &:hover
+                    color: variables.$primary-color

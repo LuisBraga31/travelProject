@@ -1,4 +1,4 @@
-import { FaHiking, FaCartPlus, FaSearch } from "react-icons/fa";
+import { FaHiking, FaCartPlus, FaSearch, FaBars } from "react-icons/fa";
 import '../../styles/components/header.sass';
 import { useEffect, useState } from "react";
 
@@ -30,17 +30,26 @@ export default function Header() {
         
             <a href="#" className="logo"><FaHiking /> Travel. </a>
 
-            <nav className="navbar">
-                <a href=""> Home </a>
-                <a href=""> About </a>
-                <a href=""> Shop </a>
-                <a href=""> Packages </a>
-                <a href=""> Reviews </a>
-                <a href=""> Blogs </a>
-                <a href=""> <FaCartPlus size={20} /> </a>
-                <a href=""> <FaSearch size={20} /> </a>
-            </nav>
+            <div className="header-nav">
+              
+              <nav className="navbar">
+                  <a href="#"> Home </a>
+                  <a href="#"> About </a>
+                  <a href="#"> Shop </a>
+                  <a href="#"> Packages </a>
+                  <a href="#"> Reviews </a>
+                  <a href="#"> Blogs </a>
+              </nav>
         
+              <div className="navbaricons">
+                <a href="#"> <FaBars size={23}/> </a>
+                <a href="#"> <FaCartPlus size={23} /> </a>
+                <a href="#"> <FaSearch size={23} /> </a>
+              </div>
+
+            </div>
+
+
         </header>
     )
 
