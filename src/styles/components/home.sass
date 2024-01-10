@@ -8,13 +8,14 @@ section
     background-image: linear-gradient(rgba(0, 255, 60, 0.15), rgba(0, 255, 60, 0.1)), url('../backgrounds/background.jpg')
     background-position: center !important
     background-size: cover !important
+    padding-top: 5rem
 
     .home-content
+
         @include mixins.flex-center
         gap: 1.2rem
         flex-direction: column
-        padding: 1rem 5rem
-        margin: 0 40% 0 5%
+        padding: 1rem 5rem 15rem 8rem
         align-items: flex-start
 
         span
@@ -29,6 +30,7 @@ section
             font-size: 2.2rem
 
         p
+            width: 40%
             padding-right: 4rem
             text-align: justify
         
