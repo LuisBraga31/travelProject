@@ -42,9 +42,10 @@ export default function Header() {
               </nav>
         
               <div className="navbaricons">
-                <a href="#"> <FaBars size={23}/> </a>
+                
                 <a href="#"> <FaCartPlus size={23} /> </a>
                 <a href="#"> <FaSearch size={23} /> </a>
+                <a href="#" className="bars"> <FaBars size={23}/> </a>
               </div>
 
             </div>

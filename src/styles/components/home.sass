@@ -11,6 +11,14 @@ section
     padding-top: 5rem
 
     .home-content
+        
+        @include mixins.tablet
+            align-items: center
+            padding: 1rem 3rem 15rem 3em
+        
+        @include mixins.mobile
+            align-items: center
+            padding: 1rem 1rem 15rem 1em
 
         @include mixins.flex-center
         gap: 1.2rem
@@ -33,6 +41,16 @@ section
             width: 40%
             padding-right: 4rem
             text-align: justify
+            
+            @include mixins.tablet
+                padding: 0
+                width: 85%
+                text-align: center
+
+            @include mixins.mobile
+                padding: 0
+                width: 100%
+                text-align: center
         
         a
             border: 1px solid black

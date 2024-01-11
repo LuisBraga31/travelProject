@@ -35,6 +35,8 @@ header
 
             @include mixins.tablet
                 display: none
+            @include mixins.mobile
+                display: none
 
             a
                 @include mixins.navitem
@@ -46,6 +48,13 @@ header
             
             @include mixins.flex-center
             
+            .bars
+                display: none
+                @include mixins.tablet
+                    display: block
+                @include mixins.mobile
+                    display: block
+
             a
                 @include mixins.navitem
                 padding-top: 4px
