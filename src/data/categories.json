@@ -12,11 +12,11 @@
     {
         "id": 3,
         "title": "Caiaque",
-        "image": "/categories/category-3-jpg"
+        "image": "/categories/category-3.jpg"
     },
     {
         "id": 4,
         "title": "Canoagem",
-        "image": "/categories/category-4-jpg"
+        "image": "/categories/category-4.jpg"
     }
 ]

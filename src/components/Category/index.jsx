@@ -1,14 +1,15 @@
 import categories from '../../data/categories.json';
+import '../../styles/components/category.sass';
 
 export default function Category() {
 
     return (
-        <section>
+        <section id="category">
 
-            <div>
+            <div className="category-section">
 
                 {categories.map( (item, index) => (
-                    <div key={index}>
+                    <div key={index} className="box">
                         <img src={item.image} alt="" />
                         <h3> {item.title} </h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
