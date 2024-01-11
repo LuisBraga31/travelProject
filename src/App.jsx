@@ -1,3 +1,4 @@
+import Category from './components/Category'
 import Header from './components/Header'
 import Home from './components/Home'
 import './styles/styles.sass'
@@ -8,6 +9,7 @@ function App() {
     <>
         <Header/>
         <Home/>
+        <Category/>
     </>
   )
 }

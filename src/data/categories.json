@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Bungee Jump",
+        "image": "/categories/category-2.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Tirolesa",
+        "image": "/categories/category-1.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Caiaque",
+        "image": "/categories/category-3-jpg"
+    },
+    {
+        "id": 4,
+        "title": "Canoagem",
+        "image": "/categories/category-4-jpg"
+    }
+]
