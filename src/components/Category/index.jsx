@@ -15,7 +15,7 @@ export default function Category() {
                         <img src={item.image} alt="" />
                         <h3> {item.title} </h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#" className="btn"> Veja mais </a>
+                        <a href="#"> Read More </a>
                     </div>
                 ))}
 
