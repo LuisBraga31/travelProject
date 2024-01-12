@@ -6,17 +6,17 @@
     },
     {
         "id": 2,
-        "title": "Tirolesa",
+        "title": "Zip Lines",
         "image": "/categories/category-1.jpg"
     },
     {
         "id": 3,
-        "title": "Caiaque",
+        "title": "Kayaking",
         "image": "/categories/category-3.jpg"
     },
     {
         "id": 4,
-        "title": "Canoagem",
+        "title": "Canoeing",
         "image": "/categories/category-4.jpg"
     }
 ]

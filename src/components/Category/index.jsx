@@ -6,7 +6,9 @@ export default function Category() {
     return (
         <section id="category">
 
-            <div className="category-section">
+            <h2> Adventure Ideas! </h2>
+
+            <div className="category-container">
 
                 {categories.map( (item, index) => (
                     <div key={index} className="box">

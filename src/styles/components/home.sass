@@ -5,7 +5,7 @@
 #home
     @include mixins.flex-center
     min-height: 100vh
-    background-image: linear-gradient(rgba(0, 255, 60, 0.15), rgba(0, 255, 60, 0.1)), url('../backgrounds/background.jpg')
+    background-image: linear-gradient(rgba(0, 255, 60, 0.15), rgba(0, 255, 60, 0.1)), url('../backgrounds/background_effect.png')
     background-repeat: no-repeat
     background-position: center !important
     background-size: cover !important
@@ -54,9 +54,4 @@
                 text-align: center
         
         a
-            border: 1px solid black
-            padding: .6rem 1rem
-
-            &:hover
-                color: variables.$white-option
-                background-color: variables.$secondary-color 
+            @include mixins.button-1
