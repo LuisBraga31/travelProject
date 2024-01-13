@@ -1,0 +1,56 @@
+@use '../variables'
+@use '../mixins'
+
+#about
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 2rem
+    flex-wrap: wrap
+    padding: 2rem 4.5rem
+    background-color: variables.$light-bg
+
+    .about-image
+        @include mixins.flex-center
+        flex: 1 1 20rem
+
+        img
+            width: 500px
+            box-shadow: 1rem 1rem 0 rgba(0, 0, 0, .1)
+            
+            @include mixins.tablet
+                width: 350px
+            
+            @include mixins.mobile
+                width: 350px
+
+    .about-content
+        
+        flex: 1 1 20rem
+        padding-top: 0.3rem
+        
+        @include mixins.tablet
+            text-align: center
+        
+        @include mixins.mobile
+            text-align: center
+
+        h3
+           font-size: 2rem
+           color: variables.$primary-color
+           
+           @include mixins.mobile
+            font-size: 1.5rem
+
+        p
+            text-align: justify
+            font-size: 1rem 
+            color: variables.$secondary-color
+            padding: 1rem 0
+            line-height: 1
+
+        .content-text
+            margin-bottom: 15px
+        
+        a
+            @include mixins.button-1       
