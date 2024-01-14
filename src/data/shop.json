@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "price": "$10.00 ~ $30.00",
+        "image": "/shopItens/shop-item1.jpg"
+    },
+    {
+        "id": 2,
+        "price": "$5.00 ~ $25.00",
+        "image": "/shopItens/shop-item1.jpg"
+    },
+    {
+        "id": 3,
+        "price": "$5.00 ~ $50.00",
+        "image": "/shopItens/shop-item1.jpg"
+    },
+    {
+        "id": 4,
+        "price": "$5.00 ~ $15.00",
+        "image": "/shopItens/shop-item1.jpg"
+    }
+]
