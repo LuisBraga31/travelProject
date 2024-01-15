@@ -1,0 +1,77 @@
+@use '../mixins'
+@use '../variables'
+
+#shop
+    @include mixins.flex-center
+    gap: 2rem
+    flex-direction: column
+    flex-wrap: wrap
+    padding: 2rem 4.5rem
+
+    .shop-products
+        @include mixins.flex-center
+        gap: 20px
+
+        .shop-item
+            width: 16rem
+            border: 1px solid variables.$black-option
+            cursor: pointer
+
+            &:hover
+                .image
+                    .icons
+                        transform: translateY(0)
+
+            .image
+                position: relative
+                overflow: hidden
+                height: 18rem
+                width: 100%
+
+                img
+                    height: 100%
+                    width: 100%
+                    object-fit: cover
+                
+                .icons
+                    width: 100%
+                    position: absolute
+                    bottom: 0.9rem 
+                    left: 0
+                    text-align: center
+                    z-index: 10
+                    transition: 0.5s 
+                    transform: translateY(7rem)
+                    
+                    svg
+                        height: 1rem
+                        width: 1rem
+                        padding: 8px
+                        line-height: 4.5rem
+                        font-size: 1.7rem
+                        background: variables.$secondary-color
+                        color: variables.$white-option
+                        margin: 0 .2rem
+                        cursor: pointer
+                        transition: 0.3s
+
+                        &:hover
+                          background: variables.$primary-color  
+            
+            .content
+                padding: 1rem 0
+                text-align: center
+                
+                h3
+                    font-size: 1rem
+                    font-weight: bold
+                    color: variables.$secondary-color
+
+                span
+                    padding: 1rem 0
+                    font-size: 1.2rem
+                    color: variables.$primary-color
+                
+                .stars
+                    @include mixins.flex-center
+                    gap: 1px
