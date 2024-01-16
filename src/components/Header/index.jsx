@@ -34,11 +34,11 @@ export default function Header() {
               
               <nav className="navbar">
                   <a href="#"> Home </a>
-                  <a href="#"> About </a>
-                  <a href="#"> Shop </a>
-                  <a href="#"> Packages </a>
-                  <a href="#"> Reviews </a>
-                  <a href="#"> Blogs </a>
+                  <a href="#about"> About </a>
+                  <a href="#shop"> Shop </a>
+                  <a href="#package"> Packages </a>
+                  <a href="#reviews"> Reviews </a>
+                  <a href="#blogs"> Blogs </a>
               </nav>
         
               <div className="navbaricons">
