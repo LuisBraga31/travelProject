@@ -1,2 +1,73 @@
 @use '../mixins'
 @use '../variables'
+
+#package
+    @include mixins.flex-center
+    flex-direction: column
+    gap: 2rem
+    background-color: variables.$light-bg
+    padding: 2rem 2.5rem
+
+    .package-container
+        width: 100%
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+        gap: 1.5rem
+
+        .box
+            text-align: center
+            background: variables.$white-option
+            border: 1px solid #000
+            box-shadow: variables.$box-shadow
+            transition: all .3s linear
+
+            &:hover
+                background: variables.$secondary-color
+            
+                .content > *
+                    color: variables.$white-option
+                
+                .content 
+                    a
+                        border-color: variables.$white-option
+
+                        &:hover
+                            background: variables.$white-option
+                            color: variables.$secondary-color
+                               
+            .image
+                height: 235px
+                overflow: hidden
+                padding: 1rem
+                padding-bottom: 0
+                border-radius: .5rem
+
+                img
+                    height: 100%
+                    width: 100%
+                    object-fit: cover
+                    border-radius: .5rem
+
+            .content
+                @include mixins.flex-center
+                flex-direction: column
+                padding: 1rem
+
+                h3
+                    font-size: 1.6rem
+                    color: variables.$black-option
+                
+                p
+                    font-size: 1rem
+                    color: variables.$secondary-color
+                    padding: 1rem 0
+                    line-height: 1.5
+                
+                span
+                    font-size: 1.3rem
+                    color: variables.$primary-color
+                    line-height: 1.5
+                    padding-bottom: 1rem
+
+                a
+                    @include mixins.button-1

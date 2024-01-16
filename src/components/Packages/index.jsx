@@ -21,7 +21,7 @@ export default function Package() {
                             <h3> Featured Tour Package </h3>
                             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, obcaecati.</p>
                             <span className="price"> $250 - $450</span>
-                            <a href="#"> Explore Now </a>
+                            <a href="#" className="btn"> Explore Now </a>
                         </div>
 
                     </div>
