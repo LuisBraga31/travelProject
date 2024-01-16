@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "/packages/package-01.jpg"
+    },
+    {
+        "id": 2,
+        "image": "/packages/package-02.jpg"
+    },
+    {
+        "id": 3,
+        "image": "/packages/package-03.jpg"
+    },
+    {
+        "id": 4,
+        "image": "/packages/package-04.jpg"
+    },
+    {
+        "id": 5,
+        "image": "/packages/package-05.jpg"
+    },
+    {
+        "id": 6,
+        "image": "/packages/package-06.jpg"
+    }
+]
