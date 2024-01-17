@@ -6,7 +6,7 @@ export default function Services() {
     return (
         <section id="services">
 
-            <h1 className="heading"> What We Offer </h1>
+            <h2 className="heading"> What We Offer </h2>
 
             <div className="box-container">
 

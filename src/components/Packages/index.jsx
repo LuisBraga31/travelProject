@@ -6,7 +6,7 @@ export default function Package() {
     return (
         <section id="package">
         
-            <h1 className="heading"> Popular Packages </h1>
+            <h2 className="heading"> Popular Packages </h2>
 
             <div className="package-container">
 

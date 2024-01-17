@@ -8,7 +8,7 @@ export default function Shop() {
     return (
         <section id="shop">
         
-            <h2> Featured Products </h2>
+            <h2 className="heading"> Featured Products </h2>
 
             <div className="shop-products">
 
