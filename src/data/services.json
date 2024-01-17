@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "/services/service-01.png",
+        "title": "Complete Guide"
+    },
+    {
+        "id": 2,
+        "image": "/services/service-02.png",
+        "title": "Custom Packages"
+    },
+    {
+        "id": 3,
+        "image": "/services/service-03.png",
+        "title": "Family Trips"
+    },
+    {
+        "id": 4,
+        "image": "/services/service-04.png",
+        "title": "Train Guides"
+    },
+    {
+        "id": 5,
+        "image": "/services/service-05.png",
+        "title": "Adventure Trail"
+    },
+    {
+        "id": 6,
+        "image": "/services/service-06.png",
+        "title": "Various Adventures"
+    }
+]
