@@ -8,11 +8,17 @@
     background-color: variables.$light-bg
     padding: 2rem 2.5rem
 
+    @include mixins.bigscreen
+        padding: 2rem 8rem
+
     .package-container
         width: 100%
         display: grid
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
         gap: 1.5rem
+
+        @include mixins.bigscreen
+            grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr))
 
         .box
             text-align: center
