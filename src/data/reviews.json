@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "image": "/reviews/person-01.jpg",
+        "work": "Tester"
+    },
+    {
+        "id": 2,
+        "name": "Kevin Williams",
+        "image": "/reviews/person-02.jpg",
+        "work": "Designer"
+    },
+    {
+        "id": 3,
+        "name": "Anne Barnes",
+        "image": "/reviews/person-03.jpg",
+        "work": "Designer"
+    }
+]
