@@ -12,9 +12,12 @@ export default function Reviews() {
 
                 {persons.map((item, index) => (   
                     <div className="slide" key={index}>
-                        <p className="text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque libero inventore assumenda 
-                            ab ipsum. Cumque tempore maiores impedit molestiae eligendi beatae sunt saepe facere, tenetur 
-                            quos quis, eius asperiores. Ratione. </p>
+                        
+                        <p className="text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque libero inventore 
+                            assumenda ab ipsum. Cumque tempore maiores impedit molestiae eligendi beatae sunt saepe facere, tenetur 
+                            quos quis, eius asperiores. Ratione. 
+                        </p>
+                        
                         <div className="user">
                             <img src={item.image} alt="" />
                             <div className="info">
