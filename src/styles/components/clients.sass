@@ -1,0 +1,18 @@
+@use '../variables'
+@use '../mixins'
+
+#clients
+    @include mixins.flex-center
+    padding: 3rem 3.5rem
+
+    .clients-container
+        @include mixins.flex-center
+        flex-wrap: wrap
+        gap: 6rem
+        
+        @include mixins.mobile
+            gap: 2rem
+        
+
+        img
+            height: 8rem
