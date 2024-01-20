@@ -1,4 +1,63 @@
 @use '../variables'
 @use '../mixins'
 
+#blogs
+    @include mixins.flex-center
+    flex-direction: column
+    gap: 0.7rem
+    padding: 2rem 3.5rem
     
+    .heading 
+        font-size: 40px
+        margin: 1rem 0rem
+        text-align: center
+
+    .blogs-container
+        @include mixins.flex-center
+        gap: 2rem
+        flex-wrap: wrap
+
+        .slide 
+            text-align: center
+            width: 22rem
+            padding: 1.5rem
+            
+            img
+                height: 15rem
+                width: 100%
+                object-fit: cover
+                border-radius: .5rem 
+            
+            .icons
+                background: variables.$secondary-color
+                border-radius: .5rem
+                padding: 0.5rem
+                position: relative
+                top: -2rem
+                display: inline-block
+
+                a
+                    font-size: 0.9rem
+                    color: variables.$white-option
+                    margin: 0 1rem
+
+                    &:hover
+                        color: variables.$primary-color
+                    
+                    svg
+                        padding-right: .1rem
+                        color: variables.$primary-color
+
+            h3
+                font-size: 1.4rem
+                color: variables.$secondary-color
+            
+            p
+                font-size: 1rem
+                padding: 0.3rem 0
+                margin-bottom: 1rem
+                line-height: 1.5
+                color: variables.$secondary-color 
+
+            .btn
+                @include mixins.button-1

@@ -1,4 +1,5 @@
 import About from './components/About'
+import Blogs from './components/Blogs'
 import Category from './components/Category'
 import Header from './components/Header'
 import Home from './components/Home'
@@ -20,6 +21,7 @@ function App() {
           <Package/>
           <Reviews/>
           <Services/>
+          <Blogs/>
     </>
   )
 }

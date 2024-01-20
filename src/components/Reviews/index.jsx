@@ -6,7 +6,7 @@ export default function Reviews() {
     return (
         <section id="reviews">
             
-            <h1 className="heading"> Clients Reviews </h1>
+            <h2 className="heading"> Clients Reviews </h2>
 
             <div className="review-container">
 

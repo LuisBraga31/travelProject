@@ -1,3 +1,20 @@
 [
-    
+    {
+        "id": 1,
+        "image": "/blogs/blog-01.jpg",
+        "date": "31st Jul, 2023",
+        "person": "Lewis"
+    },
+    {
+        "id": 2,
+        "image": "/blogs/blog-02.jpg",
+        "date": "13rd Jan, 2024",
+        "person": "Caroline"
+    },
+    {
+        "id": 3,
+        "image": "/blogs/blog-03.jpg",
+        "date": "21st Dec, 2023",
+        "person": "Mary"
+    }
 ]
