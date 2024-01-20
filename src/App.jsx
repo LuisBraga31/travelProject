@@ -3,6 +3,7 @@ import Blogs from './components/Blogs'
 import Category from './components/Category'
 import Header from './components/Header'
 import Home from './components/Home'
+import NewsLatter from './components/NewsLatter'
 import Package from './components/Packages'
 import Reviews from './components/Reviews'
 import Services from './components/Services'
@@ -22,6 +23,7 @@ function App() {
           <Reviews/>
           <Services/>
           <Blogs/>
+          <NewsLatter/>
     </>
   )
 }
