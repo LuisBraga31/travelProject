@@ -1,2 +1,52 @@
 @use '../variables'
 @use '../mixins'
+
+.footer 
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url('/backgrounds/background-footer.jpg') no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+    @include mixins.flex-center
+    flex-direction: column
+
+    .box-container
+        width: 85%
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr))
+        padding: 2rem 0
+        margin-left: 10%
+
+        .box
+
+            h3
+                font-size: 1.4rem
+                padding: 1.2rem 0
+                color: variables.$white-option
+            
+            a
+                display: block
+                font-size: 0.9rem
+                color: variables.$white-option
+                padding: 0.6rem 0
+                transition: 0.2s all linear
+
+                svg
+                    color: variables.$primary-color
+                    padding-right: .4rem
+                    transition: 0.3s all linear
+            
+                &:hover
+                    color: variables.$primary-color
+                    svg
+                        padding-right: 1.2rem
+    
+    .credit 
+        text-align: center
+        margin-top: 2rem
+        padding: 2rem
+        padding-top: 1.8rem
+        font-size: 1.5rem
+        color: variables.$white-option 
+
+        span
+            color: variables.$primary-color
