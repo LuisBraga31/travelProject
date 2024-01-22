@@ -2,6 +2,7 @@ import About from './components/About'
 import Blogs from './components/Blogs'
 import Category from './components/Category'
 import Clients from './components/Clients'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
 import NewsLatter from './components/NewsLatter'
@@ -26,6 +27,7 @@ function App() {
           <Blogs/>
           <NewsLatter/>
           <Clients/>
+        <Footer/>
     </>
   )
 }
