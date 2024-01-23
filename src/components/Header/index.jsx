@@ -1,10 +1,15 @@
 import { FaHiking, FaCartPlus, FaSearch, FaBars } from "react-icons/fa";
+import { MdOutlineClose } from "react-icons/md";
+
 import '../../styles/components/header.sass';
 import { useEffect, useState } from "react";
 
 export default function Header() {
 
     const [background, setBackground] = useState(false);
+    const [menu, setMenu] = useState(false);
+
+    const showMenu = () => setMenu(!menu);
     
     useEffect(() => {
         
@@ -45,10 +50,26 @@ export default function Header() {
                 
                 <a href="#"> <FaCartPlus size={23} /> </a>
                 <a href="#"> <FaSearch size={23} /> </a>
-                <a href="#" className="bars"> <FaBars size={23}/> </a>
+                <a href="#" className="bars"> <FaBars size={23} onClick={showMenu}/> </a>
               </div>
 
             </div>
+
+            <nav className={menu ? "menuResponsive active" : "menuResponsive"}>
+              
+              <div className="closeButton">
+                <MdOutlineClose size={32} onClick={showMenu}/>
+              </div>
+              
+              <div className="menu-itens">
+                <a href="#"> Home </a>
+                <a href="#about"> About </a>
+                <a href="#shop"> Shop </a>
+                <a href="#package"> Packages </a>
+                <a href="#reviews"> Reviews </a>
+                <a href="#blogs"> Blogs </a>
+              </div>
+            </nav>
 
 
         </header>
