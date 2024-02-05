@@ -16,7 +16,7 @@ export default function About() {
                     labore eligendi dolor.</p>
                 <p className="content-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem laudantium deserunt eaque voluptates? 
                     Illo, delectus ab? Optio eaque magni aliquam nobis aperiam quibusdam!</p>
-                <a href="#"> Read More </a>
+                <a href="#" className="btn"> Read More </a>
             </div>
 
         </section>

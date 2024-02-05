@@ -12,7 +12,7 @@ export default function Slider() {
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolorem ab pariatur quibusdam necessitatibus. 
                     Placeat fugiat adipisci minus officia non numquam repellat cupiditate. Odit eum modi nisi impedit, porro cumque.
                 </p>
-                <a href="#"> Get Started </a>
+                <a href="#" className="btn"> Get Started </a>
             </div>
 
         </section>
